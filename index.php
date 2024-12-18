@@ -16,6 +16,16 @@
             text-align: center;
             margin-bottom: 30px;
         }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -30,5 +40,8 @@
             </div>
         </div>
     </div>
+    <footer>
+        <p>Desenvolvido por João Vitor &copy; Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>

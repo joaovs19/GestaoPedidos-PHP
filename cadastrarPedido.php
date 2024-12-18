@@ -34,6 +34,16 @@ $resultCheck = mysqli_query($con, $checkSolicitante);
         .alert {
             text-align: center;
         }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -72,5 +82,8 @@ $resultCheck = mysqli_query($con, $checkSolicitante);
             <a href="visualizar_pedidos.php" class="btn btn-danger">Ver pedidos</a>
         </div>
     </div>
+    <footer>
+        <p>Desenvolvido por João Vitor &copy; Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>

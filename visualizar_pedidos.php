@@ -34,6 +34,16 @@ $result = mysqli_query($con, $sql);
         .btn-warning i, .btn-danger i {
             margin-right: 5px;
         }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +92,9 @@ $result = mysqli_query($con, $sql);
         </div>
     </div>
 
+    <footer>
+        <p>Desenvolvido por João Vitor &copy; Todos os direitos reservados</p>
+    </footer>
     <!-- Scripts do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>

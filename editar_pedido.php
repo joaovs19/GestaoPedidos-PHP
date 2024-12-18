@@ -29,6 +29,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Editar Pedido</title>
+    <style>
+            footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-4">
@@ -50,5 +62,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <a href="visualizar_pedidos.php" class="btn btn-secondary">Voltar</a>
         </form>
     </div>
+    <footer>
+        <p>Desenvolvido por João Vitor &copy; Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>

@@ -92,3 +92,34 @@ CREATE TABLE pedido (
     FOREIGN KEY (Cod_Solicitante) REFERENCES solicitante (Cod_Solicitante) ON UPDATE CASCADE
 );
 ```
+
+# Projeto Cadastro de Pedidos
+
+## Executar o Projeto
+1. Copie os arquivos para o diretório do servidor web.
+2. Acesse [http://localhost/projeto-cadastro-pedidos](http://localhost/projeto-cadastro-pedidos) no navegador.
+
+🎨 **Demonstração**  
+- Interface de Visualização:
+
+## 🤝 Contribuição
+Contribuições são bem-vindas! Para contribuir com este projeto:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch:  
+   `git checkout -b minha-feature`
+3. Commit suas alterações:  
+   `git commit -m "Adicionei nova feature"`
+4. Envie suas alterações:  
+   `git push origin minha-feature`
+5. Abra um Pull Request.
+
+## 📝 Licença
+Este projeto é licenciado sob a MIT License.
+
+## 📧 Contato
+Se precisar de ajuda ou quiser compartilhar sugestões:  
+**Nome:** João Vitor Silva  
+**Email:** joaovitorsa20@gmail.com  
+**GitHub:** github.com/joaovs19
+
